@@ -16,3 +16,5 @@ class BodegaEntrada():
         with open('datos.json', 'w') as file:
             json.dump(datos, file)
             print(datos)
+            
+            
