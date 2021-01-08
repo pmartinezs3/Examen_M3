@@ -6,4 +6,3 @@ class BodegaEntrada():
         self.nombre_flor = nombre_flor
         self.tamaño_flor = tamaño_flor
         self.cantidad = cantidad  
-
