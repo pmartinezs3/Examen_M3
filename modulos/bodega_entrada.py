@@ -3,14 +3,11 @@ import json
 class BodegaEntrada():
 
     def __init__(self):
-        self.diccionario = {}
+        self.florres = {}        
     
-    def proveedor(self, nombre_flor, tamaño_flor, cantidad):
-        self.nombre_flor = nombre_flor
-        self.tamaño_flor = tamaño_flor
-        self.cantidad = cantidad
-        atributo_flor = {'Nombre': self.nombre_flor, 'Tamaño': self.tamaño_flor, 'Cantidad':self.cantidad}
-        self.diccionario[nombre_flor] = atributo_flor
+    
+    def guardar_flor(self,flor):
+         
     
     def mostrar(self):
         print()

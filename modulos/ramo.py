@@ -1,5 +1,3 @@
 
-
-
 class Ramo(DiseñoRamo):
-    pass
+    

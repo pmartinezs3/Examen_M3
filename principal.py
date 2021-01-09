@@ -1,5 +1,8 @@
 
 from modulos import *
 
-Proveedor
+proveedor1 = Proveedor()
+print(proveedor1.generadorflores())
+
+
 
