@@ -38,5 +38,10 @@
         "nombre": "g",
         "tamano": "L",
         "cantidad": 100
+    },
+    {
+        "nombre": "g",
+        "tamano": "L",
+        "cantidad": 100
     }
 ]
