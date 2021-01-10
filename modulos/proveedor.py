@@ -7,6 +7,7 @@ class Proveedor():
         self.tamano = ""
     
     def generadorflores(self):
+        #devuelve nombre y tamaño de flor ramdom
         self.flor = random.choice(string.ascii_lowercase)
         self.tamano = random.choice(["S","L"])
         return {"nombre":self.flor ,"tamano":self.tamano}

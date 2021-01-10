@@ -4,9 +4,10 @@ from os import path
 class BodegaEntrada():
 
     def __init__(self,flor):
-        self.flor = flor
+        self.flor = flor #resive flor = nombre y tamaño en un objeto
     
     def guardar_flor(self):
+        # si data.json existe lee y guarda los datos con append
         data = []
         if path.exists('data.json'):
             with open('data.json','r') as file:
@@ -17,6 +18,8 @@ class BodegaEntrada():
             with open('data.json','w') as file:
                 json.dump(data,file,indent=4)
         else:
+            # si data json no existe crea la estructura del 
+            # json con los datos de la primera flor
             data = []
             Flores = {}
             Flores['nombre'] = self.flor['nombre']
