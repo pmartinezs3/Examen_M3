@@ -2,7 +2,8 @@
 from modulos import *
 
 proveedor1 = Proveedor()
-print(proveedor1.generadorflores())
+bodega = BodegaEntrada(proveedor1.generadorflores())
+bodega.guardar_flor()
 
 
 

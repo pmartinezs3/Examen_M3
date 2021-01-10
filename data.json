@@ -1,47 +1,162 @@
 [
     {
+        "nombre": "w",
+        "tamano": "S"
+    },
+    {
+        "nombre": "p",
+        "tamano": "S"
+    },
+    {
+        "nombre": "d",
+        "tamano": "S"
+    },
+    {
+        "nombre": "b",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "b",
+        "tamano": "L"
+    },
+    {
+        "nombre": "m",
+        "tamano": "L"
+    },
+    {
+        "nombre": "x",
+        "tamano": "L"
+    },
+    {
+        "nombre": "y",
+        "tamano": "S"
+    },
+    {
+        "nombre": "e",
+        "tamano": "L"
+    },
+    {
+        "nombre": "p",
+        "tamano": "L"
+    },
+    {
+        "nombre": "o",
+        "tamano": "S"
+    },
+    {
+        "nombre": "h",
+        "tamano": "S"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "n",
+        "tamano": "S"
+    },
+    {
+        "nombre": "q",
+        "tamano": "S"
+    },
+    {
+        "nombre": "l",
+        "tamano": "L"
+    },
+    {
+        "nombre": "u",
+        "tamano": "S"
+    },
+    {
+        "nombre": "i",
+        "tamano": "L"
+    },
+    {
+        "nombre": "i",
+        "tamano": "S"
+    },
+    {
+        "nombre": "f",
+        "tamano": "L"
+    },
+    {
+        "nombre": "c",
+        "tamano": "L"
+    },
+    {
+        "nombre": "e",
+        "tamano": "L"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "S"
+    },
+    {
+        "nombre": "c",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "S"
+    },
+    {
+        "nombre": "x",
+        "tamano": "S"
+    },
+    {
+        "nombre": "l",
+        "tamano": "L"
+    },
+    {
+        "nombre": "o",
+        "tamano": "S"
+    },
+    {
         "nombre": "r",
-        "tamano": "S",
-        "cantidad": 50
+        "tamano": "S"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "r",
+        "tamano": "L"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "d",
+        "tamano": "L"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "m",
+        "tamano": "S"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "z",
+        "tamano": "L"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "q",
+        "tamano": "L"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "h",
+        "tamano": "S"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "m",
+        "tamano": "S"
     },
     {
-        "nombre": "g",
-        "tamano": "L",
-        "cantidad": 100
+        "nombre": "h",
+        "tamano": "S"
+    },
+    {
+        "nombre": "e",
+        "tamano": "L"
     }
 ]
