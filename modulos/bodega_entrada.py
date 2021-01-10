@@ -1,10 +1,14 @@
 import json
 from os import path
 
+
 class BodegaEntrada():
 
     def __init__(self,flor):
-        self.flor = flor #resive flor = nombre y tamaño en un objeto
+        #resive flor = nombre y tamaño en un objeto
+        self.flor = flor 
+        #lista de objetos con nombre , tamaño y cantidad de flores en bodega
+        self.cantidad_flores = [] 
     
     def guardar_flor(self):
         # si data.json existe lee y guarda los datos con append
@@ -27,8 +31,23 @@ class BodegaEntrada():
             data.append(Flores)
             with open('data.json','w') as file:
                 json.dump(data, file, indent=4)
-
-        
-        
-          
-  
+                
+    
+    def contar_flores(self):
+        item_encontrado = []
+        with open('data.json') as file:
+            flores = json.load(file)
+            for flor in flores:
+                if (not flor in item_encontrado):
+                    # items_found acumula los dic que ya se analizaron para no repetirlos
+                    item_encontrado.append(flor)
+                    cuenta_item = flores.count(flor)
+                if cuenta_item > 1:
+                    item_nuevo = {}
+                    item_nuevo['nombre'] = flor['nombre']
+                    item_nuevo['tamano'] = flor['tamano']
+                    item_nuevo['cantidad'] = cuenta_item
+                    self.cantidad_flores.append(item_nuevo)
+        print(self.cantidad_flores)
+                    
+    

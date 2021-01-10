@@ -1,5 +1,529 @@
 [
     {
+        "nombre": "k",
+        "tamano": "S"
+    },
+    {
+        "nombre": "z",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "m",
+        "tamano": "S"
+    },
+    {
+        "nombre": "f",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "L"
+    },
+    {
+        "nombre": "m",
+        "tamano": "S"
+    },
+    {
+        "nombre": "m",
+        "tamano": "S"
+    },
+    {
+        "nombre": "f",
+        "tamano": "L"
+    },
+    {
+        "nombre": "z",
+        "tamano": "S"
+    },
+    {
+        "nombre": "w",
+        "tamano": "L"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "n",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "f",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "y",
+        "tamano": "S"
+    },
+    {
+        "nombre": "r",
+        "tamano": "L"
+    },
+    {
+        "nombre": "x",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "d",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "S"
+    },
+    {
+        "nombre": "i",
+        "tamano": "L"
+    },
+    {
+        "nombre": "q",
+        "tamano": "L"
+    },
+    {
+        "nombre": "z",
+        "tamano": "S"
+    },
+    {
+        "nombre": "u",
+        "tamano": "L"
+    },
+    {
+        "nombre": "o",
+        "tamano": "L"
+    },
+    {
+        "nombre": "r",
+        "tamano": "S"
+    },
+    {
+        "nombre": "s",
+        "tamano": "L"
+    },
+    {
+        "nombre": "w",
+        "tamano": "S"
+    },
+    {
+        "nombre": "s",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "S"
+    },
+    {
+        "nombre": "k",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "S"
+    },
+    {
+        "nombre": "w",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "g",
+        "tamano": "L"
+    },
+    {
+        "nombre": "d",
+        "tamano": "S"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "l",
+        "tamano": "L"
+    },
+    {
+        "nombre": "n",
+        "tamano": "L"
+    },
+    {
+        "nombre": "w",
+        "tamano": "L"
+    },
+    {
+        "nombre": "u",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "w",
+        "tamano": "L"
+    },
+    {
+        "nombre": "e",
+        "tamano": "S"
+    },
+    {
+        "nombre": "c",
+        "tamano": "L"
+    },
+    {
+        "nombre": "x",
+        "tamano": "S"
+    },
+    {
+        "nombre": "u",
+        "tamano": "L"
+    },
+    {
+        "nombre": "e",
+        "tamano": "S"
+    },
+    {
+        "nombre": "l",
+        "tamano": "L"
+    },
+    {
+        "nombre": "d",
+        "tamano": "S"
+    },
+    {
+        "nombre": "n",
+        "tamano": "S"
+    },
+    {
+        "nombre": "d",
+        "tamano": "L"
+    },
+    {
+        "nombre": "j",
+        "tamano": "S"
+    },
+    {
+        "nombre": "v",
+        "tamano": "S"
+    },
+    {
+        "nombre": "n",
+        "tamano": "S"
+    },
+    {
+        "nombre": "c",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "o",
+        "tamano": "S"
+    },
+    {
+        "nombre": "j",
+        "tamano": "S"
+    },
+    {
+        "nombre": "e",
+        "tamano": "S"
+    },
+    {
+        "nombre": "w",
+        "tamano": "S"
+    },
+    {
+        "nombre": "o",
+        "tamano": "L"
+    },
+    {
+        "nombre": "w",
+        "tamano": "L"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "z",
+        "tamano": "S"
+    },
+    {
+        "nombre": "p",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "S"
+    },
+    {
+        "nombre": "j",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "c",
+        "tamano": "S"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "d",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "n",
+        "tamano": "L"
+    },
+    {
+        "nombre": "y",
+        "tamano": "S"
+    },
+    {
+        "nombre": "z",
+        "tamano": "S"
+    },
+    {
+        "nombre": "l",
+        "tamano": "L"
+    },
+    {
+        "nombre": "w",
+        "tamano": "S"
+    },
+    {
+        "nombre": "q",
+        "tamano": "L"
+    },
+    {
+        "nombre": "j",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "u",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "S"
+    },
+    {
+        "nombre": "d",
+        "tamano": "S"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "e",
+        "tamano": "S"
+    },
+    {
+        "nombre": "l",
+        "tamano": "S"
+    },
+    {
+        "nombre": "f",
+        "tamano": "L"
+    },
+    {
+        "nombre": "t",
+        "tamano": "L"
+    },
+    {
+        "nombre": "c",
+        "tamano": "L"
+    },
+    {
+        "nombre": "b",
+        "tamano": "S"
+    },
+    {
+        "nombre": "h",
+        "tamano": "L"
+    },
+    {
+        "nombre": "j",
+        "tamano": "L"
+    },
+    {
+        "nombre": "p",
+        "tamano": "L"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "o",
+        "tamano": "S"
+    },
+    {
+        "nombre": "c",
+        "tamano": "S"
+    },
+    {
+        "nombre": "r",
+        "tamano": "S"
+    },
+    {
+        "nombre": "b",
+        "tamano": "S"
+    },
+    {
+        "nombre": "s",
+        "tamano": "S"
+    },
+    {
+        "nombre": "y",
+        "tamano": "L"
+    },
+    {
+        "nombre": "y",
+        "tamano": "S"
+    },
+    {
+        "nombre": "u",
+        "tamano": "S"
+    },
+    {
+        "nombre": "a",
+        "tamano": "S"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "i",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
+        "tamano": "S"
+    },
+    {
+        "nombre": "r",
+        "tamano": "S"
+    },
+    {
+        "nombre": "y",
+        "tamano": "S"
+    },
+    {
+        "nombre": "g",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "S"
+    },
+    {
+        "nombre": "v",
+        "tamano": "S"
+    },
+    {
+        "nombre": "t",
+        "tamano": "S"
+    },
+    {
+        "nombre": "n",
+        "tamano": "L"
+    },
+    {
+        "nombre": "d",
+        "tamano": "L"
+    },
+    {
+        "nombre": "i",
+        "tamano": "S"
+    },
+    {
+        "nombre": "p",
+        "tamano": "S"
+    },
+    {
+        "nombre": "v",
+        "tamano": "S"
+    },
+    {
+        "nombre": "a",
+        "tamano": "L"
+    },
+    {
+        "nombre": "i",
+        "tamano": "L"
+    },
+    {
+        "nombre": "s",
+        "tamano": "L"
+    },
+    {
+        "nombre": "k",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "i",
+        "tamano": "S"
+    },
+    {
         "nombre": "w",
         "tamano": "S"
     },
@@ -8,11 +532,11 @@
         "tamano": "S"
     },
     {
-        "nombre": "d",
+        "nombre": "x",
         "tamano": "S"
     },
     {
-        "nombre": "b",
+        "nombre": "o",
         "tamano": "S"
     },
     {
@@ -20,143 +544,11 @@
         "tamano": "S"
     },
     {
-        "nombre": "b",
-        "tamano": "L"
-    },
-    {
-        "nombre": "m",
-        "tamano": "L"
-    },
-    {
-        "nombre": "x",
-        "tamano": "L"
-    },
-    {
-        "nombre": "y",
-        "tamano": "S"
-    },
-    {
-        "nombre": "e",
-        "tamano": "L"
-    },
-    {
-        "nombre": "p",
-        "tamano": "L"
-    },
-    {
-        "nombre": "o",
-        "tamano": "S"
-    },
-    {
         "nombre": "h",
-        "tamano": "S"
-    },
-    {
-        "nombre": "k",
-        "tamano": "L"
-    },
-    {
-        "nombre": "n",
         "tamano": "S"
     },
     {
         "nombre": "q",
         "tamano": "S"
-    },
-    {
-        "nombre": "l",
-        "tamano": "L"
-    },
-    {
-        "nombre": "u",
-        "tamano": "S"
-    },
-    {
-        "nombre": "i",
-        "tamano": "L"
-    },
-    {
-        "nombre": "i",
-        "tamano": "S"
-    },
-    {
-        "nombre": "f",
-        "tamano": "L"
-    },
-    {
-        "nombre": "c",
-        "tamano": "L"
-    },
-    {
-        "nombre": "e",
-        "tamano": "L"
-    },
-    {
-        "nombre": "t",
-        "tamano": "L"
-    },
-    {
-        "nombre": "v",
-        "tamano": "S"
-    },
-    {
-        "nombre": "c",
-        "tamano": "L"
-    },
-    {
-        "nombre": "h",
-        "tamano": "S"
-    },
-    {
-        "nombre": "x",
-        "tamano": "S"
-    },
-    {
-        "nombre": "l",
-        "tamano": "L"
-    },
-    {
-        "nombre": "o",
-        "tamano": "S"
-    },
-    {
-        "nombre": "r",
-        "tamano": "S"
-    },
-    {
-        "nombre": "r",
-        "tamano": "L"
-    },
-    {
-        "nombre": "d",
-        "tamano": "L"
-    },
-    {
-        "nombre": "m",
-        "tamano": "S"
-    },
-    {
-        "nombre": "z",
-        "tamano": "L"
-    },
-    {
-        "nombre": "q",
-        "tamano": "L"
-    },
-    {
-        "nombre": "h",
-        "tamano": "S"
-    },
-    {
-        "nombre": "m",
-        "tamano": "S"
-    },
-    {
-        "nombre": "h",
-        "tamano": "S"
-    },
-    {
-        "nombre": "e",
-        "tamano": "L"
     }
 ]
