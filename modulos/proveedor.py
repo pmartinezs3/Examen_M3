@@ -1,7 +1,8 @@
 
 import random
 import string
-class Proveedor():    
+class Proveedor():   
+    
     def __init__(self):
         self.flor  = ""
         self.tamano = ""

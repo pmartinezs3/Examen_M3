@@ -1,18 +1,54 @@
 [
     {
-        "nombre": "j",
+        "nombre": "v",
         "tamano": "L"
     },
     {
-        "nombre": "t",
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "v",
+        "tamano": "L"
+    },
+    {
+        "nombre": "h",
         "tamano": "S"
-    },
-    {
-        "nombre": "n",
-        "tamano": "L"
-    },
-    {
-        "nombre": "e",
-        "tamano": "L"
     }
 ]

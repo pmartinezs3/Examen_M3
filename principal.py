@@ -6,4 +6,3 @@ bodega = BodegaEntrada(proveedor1.generadorflores())
 bodega.guardar_flor()
 bodega.contar_flores()
 
-

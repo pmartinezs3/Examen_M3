@@ -2,7 +2,6 @@ import json
 from os import path 
 from os import stat
 
-
 class BodegaEntrada():
 
     def __init__(self,flor):
@@ -35,20 +34,21 @@ class BodegaEntrada():
                 
     
     def contar_flores(self):
-        item_encontrado = []
         with open('data.json') as file:
             flores = json.load(file)
+            nueva_lista = []
+            item_encontrados = []
             for flor in flores:
-                if (not flor in item_encontrado):
-                    # items_found acumula los dic que ya se analizaron para no repetirlos
-                    item_encontrado.append(flor)
-                    cuenta_item = flores.count(flor)
-                if cuenta_item > 0:
-                    item_nuevo = {}
-                    item_nuevo['nombre'] = flor['nombre']
-                    item_nuevo['tamano'] = flor['tamano']
-                    item_nuevo['cantidad'] = cuenta_item
-                    self.cantidad_flores.append(item_nuevo)
-        print(self.cantidad_flores)
+                if (not flor in item_encontrados):
+                    item_encontrados.append(flor)
+                    contar = flores.count(flor)
+                    
+                    if contar > 0:
+                        nuevo_elemento = {}
+                        nuevo_elemento['nombre'] = flor['nombre']
+                        nuevo_elemento['tamano'] = flor['tamano']
+                        nuevo_elemento['cantidad'] = contar
+                        nueva_lista.append(nuevo_elemento)
+            print(nueva_lista)
                     
     
