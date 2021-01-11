@@ -1,5 +1,6 @@
 import json
-from os import path
+from os import path 
+from os import stat
 
 
 class BodegaEntrada():
@@ -13,7 +14,7 @@ class BodegaEntrada():
     def guardar_flor(self):
         # si data.json existe lee y guarda los datos con append
         data = []
-        if path.exists('data.json'):
+        if path.exists('data.json') and stat("data.json").st_size != 0:
             with open('data.json','r') as file:
                 flores = json.load(file)
                 for flor in flores:
@@ -42,7 +43,7 @@ class BodegaEntrada():
                     # items_found acumula los dic que ya se analizaron para no repetirlos
                     item_encontrado.append(flor)
                     cuenta_item = flores.count(flor)
-                if cuenta_item > 1:
+                if cuenta_item > 0:
                     item_nuevo = {}
                     item_nuevo['nombre'] = flor['nombre']
                     item_nuevo['tamano'] = flor['tamano']

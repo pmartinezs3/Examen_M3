@@ -7,5 +7,3 @@ bodega.guardar_flor()
 bodega.contar_flores()
 
 
-
-
