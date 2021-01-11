@@ -36,7 +36,6 @@ class BodegaEntrada():
     def contar_flores(self):
         with open('data.json') as file:
             flores = json.load(file)
-            nueva_lista = []
             item_encontrados = []
             for flor in flores:
                 if (not flor in item_encontrados):
@@ -48,7 +47,8 @@ class BodegaEntrada():
                         nuevo_elemento['nombre'] = flor['nombre']
                         nuevo_elemento['tamano'] = flor['tamano']
                         nuevo_elemento['cantidad'] = contar
-                        nueva_lista.append(nuevo_elemento)
-            print(nueva_lista)
-                    
+                        self.cantidad_flores.append(nuevo_elemento)
+        
+        for cantidad in self.cantidad_flores:
+            print(cantidad)
     
