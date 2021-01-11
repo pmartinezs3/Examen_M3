@@ -4,13 +4,10 @@ from os import stat
 
 class BodegaEntrada():
 
-    def __init__(self,flor):
-        #resive flor = nombre y tamaño en un objeto
-        self.flor = flor 
-        #lista de objetos con nombre , tamaño y cantidad de flores en bodega
-        self.cantidad_flores = [] 
+    def __init__(self):
+        pass
     
-    def guardar_flor(self):
+    def guardar_flor(self,flor):
         # si data.json existe lee y guarda los datos con append
         data = []
         if path.exists('data.json') and stat("data.json").st_size != 0:
@@ -38,17 +35,19 @@ class BodegaEntrada():
             flores = json.load(file)
             item_encontrados = []
             for flor in flores:
-                if (not flor in item_encontrados):
-                    item_encontrados.append(flor)
-                    contar = flores.count(flor)
-                    
-                    if contar > 0:
-                        nuevo_elemento = {}
-                        nuevo_elemento['nombre'] = flor['nombre']
-                        nuevo_elemento['tamano'] = flor['tamano']
-                        nuevo_elemento['cantidad'] = contar
-                        self.cantidad_flores.append(nuevo_elemento)
+                self.lista_flores.append(flor)
+                
+            print(self.lista_flores)
+        #         if (not flor in item_encontrados):
+        #             item_encontrados.append(flor)
+        #             contar = flores.count(flor)
+        #             if contar > 0:
+        #                 nuevo_elemento = {}
+        #                 nuevo_elemento['nombre'] = flor['nombre']
+        #                 nuevo_elemento['tamano'] = flor['tamano']
+        #                 nuevo_elemento['cantidad'] = contar
+        #                 self.cantidad_flores.append(nuevo_elemento)
         
-        for cantidad in self.cantidad_flores:
-            print(cantidad)
+        # for cantidad in self.cantidad_flores:
+        #     print(cantidad)
     
