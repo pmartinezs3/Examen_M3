@@ -1,3 +1,0 @@
-
-class Ramo(DiseñoRamo):
-    
